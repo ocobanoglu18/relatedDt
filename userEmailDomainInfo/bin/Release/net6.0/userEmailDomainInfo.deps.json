@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "userEmailDomainInfo/1.0.0": {
+        "dependencies": {
+          "Nager.PublicSuffix": "2.2.2"
+        },
+        "runtime": {
+          "userEmailDomainInfo.dll": {}
+        }
+      },
+      "Nager.PublicSuffix/2.2.2": {
+        "runtime": {
+          "lib/net5.0/Nager.PublicSuffix.dll": {
+            "assemblyVersion": "2.2.2.0",
+            "fileVersion": "2.2.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "userEmailDomainInfo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nager.PublicSuffix/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZvWmKZPRkkPYxELr+IISOdI25TweYaAw2KjqQY/3vhJSc5FFtsopuuQ31tFs54/w8ph9hPt3bT6DY2onO4qv6w==",
+      "path": "nager.publicsuffix/2.2.2",
+      "hashPath": "nager.publicsuffix.2.2.2.nupkg.sha512"
+    }
+  }
+}

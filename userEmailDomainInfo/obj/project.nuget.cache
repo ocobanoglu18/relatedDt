@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jjTugmOu3hIketM1/yhOIHfCSocYTG6caqcaAFTi2FJF3P5ue6wq1JsVz5qu29XE2V4sQ7BLUZ8p+pFU0mjeBA==",
+  "success": true,
+  "projectFilePath": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj",
+  "expectedPackageFiles": [
+    "/Users/adnancobanoglu/.nuget/packages/lumenworkscsvreader/4.0.0/lumenworkscsvreader.4.0.0.nupkg.sha512",
+    "/Users/adnancobanoglu/.nuget/packages/nager.publicsuffix/2.2.2/nager.publicsuffix.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

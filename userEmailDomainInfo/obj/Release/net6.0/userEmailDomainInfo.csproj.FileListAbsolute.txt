@@ -1,0 +1,16 @@
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/userEmailDomainInfo
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/userEmailDomainInfo.deps.json
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/userEmailDomainInfo.runtimeconfig.json
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/userEmailDomainInfo.dll
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/ref/userEmailDomainInfo.dll
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/userEmailDomainInfo.pdb
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/bin/Release/net6.0/Nager.PublicSuffix.dll
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.AssemblyInfoInputs.cache
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.AssemblyInfo.cs
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.csproj.CoreCompileInputs.cache
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.csproj.CopyComplete
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.dll
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/ref/userEmailDomainInfo.dll
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.pdb
+/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/Release/net6.0/userEmailDomainInfo.genruntimeconfig.cache

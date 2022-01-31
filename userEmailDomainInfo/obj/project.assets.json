@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LumenWorksCsvReader/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LumenWorks.Framework.IO.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LumenWorks.Framework.IO.dll": {}
+        }
+      },
+      "Nager.PublicSuffix/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Nager.PublicSuffix.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Nager.PublicSuffix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LumenWorksCsvReader/4.0.0": {
+      "sha512": "CP6bPmDbmV5yT7YwfGxN8Agrdj0nB82b2UitfrnTghqyfF4DXD4UXl8MoCXBz4Ja17bUYqpEDd+qaavh7lwUxg==",
+      "type": "package",
+      "path": "lumenworkscsvreader/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/LumenWorks.Framework.IO.dll",
+        "lib/net20/LumenWorks.Framework.IO.pdb",
+        "lib/net20/LumenWorks.Framework.IO.xml",
+        "lib/net35/LumenWorks.Framework.IO.dll",
+        "lib/net35/LumenWorks.Framework.IO.pdb",
+        "lib/net35/LumenWorks.Framework.IO.xml",
+        "lib/net45/LumenWorks.Framework.IO.dll",
+        "lib/net45/LumenWorks.Framework.IO.pdb",
+        "lib/net45/LumenWorks.Framework.IO.xml",
+        "lib/net461/LumenWorks.Framework.IO.dll",
+        "lib/net461/LumenWorks.Framework.IO.pdb",
+        "lib/net461/LumenWorks.Framework.IO.xml",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.dll",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.pdb",
+        "lib/netstandard1.3/LumenWorks.Framework.IO.xml",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.dll",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.pdb",
+        "lib/netstandard2.0/LumenWorks.Framework.IO.xml",
+        "lumenworkscsvreader.4.0.0.nupkg.sha512",
+        "lumenworkscsvreader.nuspec"
+      ]
+    },
+    "Nager.PublicSuffix/2.2.2": {
+      "sha512": "ZvWmKZPRkkPYxELr+IISOdI25TweYaAw2KjqQY/3vhJSc5FFtsopuuQ31tFs54/w8ph9hPt3bT6DY2onO4qv6w==",
+      "type": "package",
+      "path": "nager.publicsuffix/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net45/Nager.PublicSuffix.dll",
+        "lib/net45/Nager.PublicSuffix.xml",
+        "lib/net461/Nager.PublicSuffix.dll",
+        "lib/net461/Nager.PublicSuffix.xml",
+        "lib/net5.0/Nager.PublicSuffix.dll",
+        "lib/net5.0/Nager.PublicSuffix.xml",
+        "lib/netstandard2.0/Nager.PublicSuffix.dll",
+        "lib/netstandard2.0/Nager.PublicSuffix.xml",
+        "logo.png",
+        "nager.publicsuffix.2.2.2.nupkg.sha512",
+        "nager.publicsuffix.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LumenWorksCsvReader >= 4.0.0",
+      "Nager.PublicSuffix >= 2.2.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/adnancobanoglu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj",
+      "projectName": "userEmailDomainInfo",
+      "projectPath": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj",
+      "packagesPath": "/Users/adnancobanoglu/.nuget/packages/",
+      "outputPath": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/adnancobanoglu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "LumenWorksCsvReader": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Nager.PublicSuffix": {
+            "target": "Package",
+            "version": "[2.2.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
