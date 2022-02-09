@@ -14,5 +14,6 @@
   <ItemGroup>
     <PackageReference Include="Nager.PublicSuffix" Version="2.2.2" />
     <PackageReference Include="LumenWorksCsvReader" Version="4.0.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
   </ItemGroup>
 </Project>
