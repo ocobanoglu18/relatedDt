@@ -37,3 +37,6 @@ C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\obj\Debug\
 C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\obj\Debug\net6.0\ref\userEmailDomainInfo.dll
 C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\obj\Debug\net6.0\userEmailDomainInfo.pdb
 C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\obj\Debug\net6.0\userEmailDomainInfo.genruntimeconfig.cache
+C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll

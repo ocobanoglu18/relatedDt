@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w1LAKlxKskpKeLEC4tDG+C7C1HlzOy8DU1mvDRt/XxAJfQbQiolyCBcVLIMv3Yhito8Rw1WXUj9D+GCVlDNuPQ==",
+  "dgSpecHash": "leo8HuICnMED+i05j1PhugXEPCwXFgMJIBa9K36lCAdm2EnJ1ihQfnac7FRYwNCGq+km9QRSXkcsy+Lc1ZXXCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\userEmailDomainInfo.csproj",
   "expectedPackageFiles": [
@@ -85,7 +85,8 @@
     "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
     "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\aysenur.gozel\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

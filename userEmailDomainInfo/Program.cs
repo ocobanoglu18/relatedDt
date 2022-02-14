@@ -6,15 +6,16 @@ using System.IO;
 namespace userEmailDomainInfo
 {
     class Program
-    { 
-static void Main(string[] args)
     {
-            using (var reader = 
-                new StreamReader(@"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\1000000_EMAIL.csv")) 
+        private void GenerateTestEmails()
+        {
+
+            using (var reader =
+                new StreamReader(@"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\1000000_EMAIL.csv"))
             {
                 List<string> listA = new List<string>();
-                List<string> listB = new List<string>();    
-                
+                List<string> listB = new List<string>();
+
                 while (!reader.EndOfStream)
                 {
                     var line = reader.ReadLine();
@@ -24,12 +25,12 @@ static void Main(string[] args)
                         listA.Add(values[1]);
                         listB.Add(line);
                     }
-                    else if (values.Length <= 1) 
+                    else if (values.Length <= 1)
                     {
                         listA.Add(values[0]);
                         listB.Add(line);
                     }
-                
+
                 }
                 //listB.ForEach(Console.WriteLine);
 
@@ -44,7 +45,12 @@ static void Main(string[] args)
                     @"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\test_emails.csv",
                     sb.ToString());
             }
-    }
+        }
+        static void Main(string[] args)
+        {
+            // GenerateTestEmails();
+            return;
+        }
 
 
 }
