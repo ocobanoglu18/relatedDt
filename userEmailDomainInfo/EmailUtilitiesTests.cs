@@ -27,7 +27,7 @@ namespace userEmailDomainInfo.Tests
 
         [Theory]
         [InlineData("key_id_20171204_279846@euromsg.net", "euromsg")]
-        [InlineData("aaaa_newmail_001068798@euromsg.com", "euromsg")]
+        [InlineData("aaaa_newmail_0 01068798@euromsg.com", "euromsg")]
         [InlineData("kaka@mail.ru", "mail")]
         [InlineData("rachaelprentice@hotmail.co.uk", "hotmail")]
 

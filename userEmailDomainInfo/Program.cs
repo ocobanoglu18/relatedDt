@@ -7,45 +7,45 @@ namespace userEmailDomainInfo
 {
     class Program
     {
-        private void GenerateTestEmails()
-        {
+        //private void GenerateTestEmails()
+        //{
 
-            using (var reader =
-                new StreamReader(@"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\1000000_EMAIL.csv"))
-            {
-                List<string> listA = new List<string>();
-                List<string> listB = new List<string>();
+        //    using (var reader =
+        //        new StreamReader(@"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\1000000_EMAIL.csv"))
+        //    {
+        //        List<string> listA = new List<string>();
+        //        List<string> listB = new List<string>();
 
-                while (!reader.EndOfStream)
-                {
-                    var line = reader.ReadLine();
-                    var values = line.Split('@');
-                    if (values.Length > 1 && !listA.Contains(values[1]))
-                    {
-                        listA.Add(values[1]);
-                        listB.Add(line);
-                    }
-                    else if (values.Length <= 1)
-                    {
-                        listA.Add(values[0]);
-                        listB.Add(line);
-                    }
+        //        while (!reader.EndOfStream)
+        //        {
+        //            var line = reader.ReadLine();
+        //            var values = line.Split('@');
+        //            if (values.Length > 1 && !listA.Contains(values[1]))
+        //            {
+        //                listA.Add(values[1]);
+        //                listB.Add(line);
+        //            }
+        //            else if (values.Length <= 1)
+        //            {
+        //                listA.Add(values[0]);
+        //                listB.Add(line);
+        //            }
 
-                }
-                //listB.ForEach(Console.WriteLine);
+        //        }
+        //        //listB.ForEach(Console.WriteLine);
 
-                System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                foreach (var item in listB)
-                {
-                    sb.AppendLine(item.ToString());
-                }
+        //        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        //        foreach (var item in listB)
+        //        {
+        //            sb.AppendLine(item.ToString());
+        //        }
 
-                Console.WriteLine(sb.ToString());
-                System.IO.File.WriteAllText(
-                    @"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\test_emails.csv",
-                    sb.ToString());
-            }
-        }
+        //        Console.WriteLine(sb.ToString());
+        //        System.IO.File.WriteAllText(
+        //            @"C:\Users\aysenur.gozel\Documents\GitHub\relatedDt\userEmailDomainInfo\test_emails.csv",
+        //            sb.ToString());
+        //    }
+        //}
         static void Main(string[] args)
         {
             // GenerateTestEmails();

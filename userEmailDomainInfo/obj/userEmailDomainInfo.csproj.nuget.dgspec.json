@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
             "Nager.PublicSuffix": {
               "target": "Package",
               "version": "[2.2.2, )"
