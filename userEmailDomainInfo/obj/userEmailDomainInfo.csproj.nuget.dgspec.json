@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\userEmailDomainInfo.csproj": {}
+    "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\userEmailDomainInfo.csproj": {
+    "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\userEmailDomainInfo.csproj",
+        "projectUniqueName": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj",
         "projectName": "userEmailDomainInfo",
-        "projectPath": "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\userEmailDomainInfo.csproj",
-        "packagesPath": "C:\\Users\\aysenur.gozel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aysenur.gozel\\Documents\\GitHub\\relatedDt\\userEmailDomainInfo\\obj\\",
+        "projectPath": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/userEmailDomainInfo.csproj",
+        "packagesPath": "/Users/adnancobanoglu/.nuget/packages/",
+        "outputPath": "/Users/adnancobanoglu/Projects/userEmailDomainInfo/userEmailDomainInfo/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aysenur.gozel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/adnancobanoglu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,23 +42,9 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.0.0, )"
-            },
             "Nager.PublicSuffix": {
               "target": "Package",
               "version": "[2.2.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -82,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
